@@ -42,7 +42,45 @@
     		<artifactId>opc-ua-stack</artifactId>
     		<version>1.03.340.0-SNAPSHOT</version>
     		<scope>system</scope>
-    		<systemPath>C:\Users\wades\git\UA-Java\target\opc-ua-stack-1.03.340.0-SNAPSHOT.jar</systemPath>
+    		
+    		<systemPath>/Users/subinsebastian/Documents/work/saintsoftware/NIFI-OPCUA/nifi-opcua-bundle/lib/opc-ua-stack-1.03.341.0-SNAPSHOT.jar</systemPath>
     	</dependency>
     </dependencies>
+    <build>
+    	<pluginManagement>
+    		<plugins>
+    			<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+    			<plugin>
+    				<groupId>org.eclipse.m2e</groupId>
+    				<artifactId>lifecycle-mapping</artifactId>
+    				<version>1.0.0</version>
+    				<configuration>
+    					<lifecycleMappingMetadata>
+    						<pluginExecutions>
+    							<pluginExecution>
+    								<pluginExecutionFilter>
+    									<groupId>
+    										org.apache.maven.plugins
+    									</groupId>
+    									<artifactId>
+    										maven-compiler-plugin
+    									</artifactId>
+    									<versionRange>
+    										[3.2,)
+    									</versionRange>
+    									<goals>
+    										<goal>testCompile</goal>
+    									</goals>
+    								</pluginExecutionFilter>
+    								<action>
+    									<ignore></ignore>
+    								</action>
+    							</pluginExecution>
+    						</pluginExecutions>
+    					</lifecycleMappingMetadata>
+    				</configuration>
+    			</plugin>
+    		</plugins>
+    	</pluginManagement>
+    </build>
 </project>
