@@ -41,11 +41,10 @@
     		<groupId>org.opcfoundation.ua</groupId>
     		<artifactId>opc-ua-stack</artifactId>
     		<version>1.03.340.0-SNAPSHOT</version>
-    		<scope>system</scope>
-    		
-    		<systemPath>/Users/subinsebastian/Documents/work/saintsoftware/NIFI-OPCUA/nifi-opcua-bundle/lib/opc-ua-stack-1.03.341.0-SNAPSHOT.jar</systemPath>
+    		<scope>provided</scope>
     	</dependency>
     </dependencies>
+    
     <build>
     	<pluginManagement>
     		<plugins>
