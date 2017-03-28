@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kentender.nifi.${artifactBaseName};
+package com.kentender.nifi.opcua;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class TestProcessor extends AbstractProcessor {
     @Override
     public void onTrigger(ProcessContext context, ProcessSession session) throws ProcessException {
     }
-
+    /*
     @Override
     protected List<PropertyDescriptor> getSupportedPropertyDescriptors() {
         List<PropertyDescriptor> propDescs = new ArrayList<>();
@@ -41,5 +41,5 @@ public class TestProcessor extends AbstractProcessor {
                 .required(true)
                 .build());
         return propDescs;
-    }
+    }*/
 }

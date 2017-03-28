@@ -141,7 +141,7 @@ public class StandardOPCUAService extends AbstractControllerService implements O
     	// Load Client's certificates from file or create new certs
     	logger.debug("Creating Certificates");
     	
-		if (context.getProperty(SECURITY_POLICY).getValue() == "None"){
+		if ("None".equals(context.getProperty(SECURITY_POLICY).getValue())){
 			// Build OPC Client
 			myClientApplicationInstanceCertificate = null;
 						

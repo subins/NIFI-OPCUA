@@ -80,11 +80,11 @@
       <properties>
         <entry>
           <key>Endpoint URL</key>
-          <value>opc.tcp://192.168.189.10:49320</value>
+          <value>opc.tcp://localhost:49320</value>
         </entry>
         <entry>
           <key>Security Policy</key>
-          <value>Basic128Rsa15</value>
+          <value>None</value>
         </entry>
         <entry>
           <key>Certificate for Server application</key>

@@ -42,7 +42,7 @@
     		<artifactId>opc-ua-stack</artifactId>
     		<version>1.03.340.0-SNAPSHOT</version>
     		<scope>system</scope>
-    		<systemPath>C:\Users\wades\git\UA-Java\target\opc-ua-stack-1.03.340.0-SNAPSHOT.jar</systemPath>
+    		<systemPath>F:\work\saintsoftware\UA-Java\target\opc-ua-stack-1.03.341.0-SNAPSHOT.jar</systemPath>
     	</dependency>
     </dependencies>
 </project>
